@@ -1,0 +1,6 @@
+{
+  "tailwindStylesheet": "./resources/css/app.css",
+  "singleAttributePerLine": true,
+  "tabWidth": 4,
+  "printWidth": 150
+}

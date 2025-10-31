@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    /* Form labels & text */
+    .dark .ant-form-item-label > label {
+        color: #e2e8f0 !important; /* slate-200 */
+    }
+
+    .dark .ant-typography,
+    .dark .ant-steps-item-title,
+    .dark .ant-alert-message,
+    .dark .ant-alert-description {
+        color: #e2e8f0 !important; /* slate-200 */
+    }
+
+    /* Input & Select text colors */
+    .dark .ant-input,
+    .dark .ant-select-selector,
+    .dark .ant-input-number-input {
+        background-color: #1e293b !important; /* slate-800 */
+        color: #f1f5f9 !important; /* slate-100 */
+        border-color: #334155 !important;
+    }
+
+    /* Dropdown and popup menus */
+    .dark .ant-select-dropdown,
+    .dark .ant-dropdown-menu {
+        background-color: #1e293b !important;
+        color: #f1f5f9 !important;
+    }
+
+    /* Steps titles and icons */
+    .dark .ant-steps-item-title {
+        color: #e2e8f0 !important;
+    }
+    .dark .ant-steps-item-icon {
+        background-color: #475569 !important;
+        border-color: #64748b !important;
+    }
+
+    /* Alert text & background */
+    .dark .ant-alert {
+        background-color: #1e293b !important;
+        border-color: #334155 !important;
+    }
+}
